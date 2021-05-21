@@ -1,8 +1,8 @@
+import 'package:Demo_Hive_with_Bloc/data/model/albumDataModel.dart';
+import 'package:Demo_Hive_with_Bloc/data/model/albumHiveModel.dart';
 import 'package:hive/hive.dart';
-import 'package:upstreet_flutter_code_challenge/data/model/albumDataModel.dart';
 import 'dart:convert' as convert;
 import 'package:http/http.dart' as http;
-import 'package:upstreet_flutter_code_challenge/data/model/albumHiveModel.dart';
 
 class AlbumlistRepo {
   Future<List<Album>> fetchlist() async {

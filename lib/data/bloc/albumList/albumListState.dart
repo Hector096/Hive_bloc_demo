@@ -1,5 +1,5 @@
+import 'package:Demo_Hive_with_Bloc/data/model/albumHiveModel.dart';
 import 'package:equatable/equatable.dart';
-import 'package:upstreet_flutter_code_challenge/data/model/albumHiveModel.dart';
 
 
 abstract class AlbumListState extends Equatable {

@@ -1,8 +1,8 @@
 import 'dart:async';
+import 'package:Demo_Hive_with_Bloc/data/bloc/albumList/albumListEvent.dart';
+import 'package:Demo_Hive_with_Bloc/data/bloc/albumList/albumListRepository.dart';
+import 'package:Demo_Hive_with_Bloc/data/bloc/albumList/albumListState.dart';
 import 'package:bloc/bloc.dart';
-import 'package:upstreet_flutter_code_challenge/data/bloc/albumList/albumListEvent.dart';
-import 'package:upstreet_flutter_code_challenge/data/bloc/albumList/albumListRepository.dart';
-import 'package:upstreet_flutter_code_challenge/data/bloc/albumList/albumListState.dart';
 
 
 class AlbumListBloc extends Bloc<AlbumListEvent, AlbumListState> {

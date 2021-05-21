@@ -1,5 +1,5 @@
-name: upstreet_flutter_code_challenge
-description: Upstreet Flutter code challenge v1
+name: Demo_Hive_with_Bloc
+description: Hive Implementation demo with bloc
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

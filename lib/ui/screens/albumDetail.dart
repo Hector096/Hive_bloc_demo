@@ -1,11 +1,11 @@
+import 'package:Demo_Hive_with_Bloc/data/model/albumHiveModel.dart';
+import 'package:Demo_Hive_with_Bloc/ui/screens/editAlbum.dart';
+import 'package:Demo_Hive_with_Bloc/ui/widgets/loadingWidget.dart';
+import 'package:Demo_Hive_with_Bloc/util/sizeConfig.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:upstreet_flutter_code_challenge/data/model/albumHiveModel.dart';
-import 'package:upstreet_flutter_code_challenge/ui/screens/editAlbum.dart';
-import 'package:upstreet_flutter_code_challenge/ui/widgets/loadingWidget.dart';
-import 'package:upstreet_flutter_code_challenge/util/sizeConfig.dart';
 
 class AlbumDetailScreen extends StatefulWidget {
   Album data;

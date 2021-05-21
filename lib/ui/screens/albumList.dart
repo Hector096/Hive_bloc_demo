@@ -1,16 +1,16 @@
+import 'package:Demo_Hive_with_Bloc/data/bloc/albumList/albumListBloc.dart';
+import 'package:Demo_Hive_with_Bloc/data/bloc/albumList/albumListEvent.dart';
+import 'package:Demo_Hive_with_Bloc/data/bloc/albumList/albumListState.dart';
+import 'package:Demo_Hive_with_Bloc/data/model/albumHiveModel.dart';
+import 'package:Demo_Hive_with_Bloc/ui/screens/albumDetail.dart';
+import 'package:Demo_Hive_with_Bloc/ui/screens/editAlbum.dart';
+import 'package:Demo_Hive_with_Bloc/ui/widgets/loadingWidget.dart';
+import 'package:Demo_Hive_with_Bloc/util/sizeConfig.dart';
 import 'package:another_flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:loading_overlay/loading_overlay.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:upstreet_flutter_code_challenge/ui/widgets/loadingWidget.dart';
-import 'package:upstreet_flutter_code_challenge/data/bloc/albumList/albumListBloc.dart';
-import 'package:upstreet_flutter_code_challenge/data/bloc/albumList/albumListEvent.dart';
-import 'package:upstreet_flutter_code_challenge/data/bloc/albumList/albumListState.dart';
-import 'package:upstreet_flutter_code_challenge/data/model/albumHiveModel.dart';
-import 'package:upstreet_flutter_code_challenge/ui/screens/albumDetail.dart';
-import 'package:upstreet_flutter_code_challenge/ui/screens/editAlbum.dart';
-import 'package:upstreet_flutter_code_challenge/util/sizeConfig.dart';
 
 class AlbumList extends StatefulWidget {
   const AlbumList();
